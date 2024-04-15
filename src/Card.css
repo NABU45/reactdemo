@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 0px 0px 2px 1px #ccc;
+    padding: 20px;
+}
+
+.header-container, .incident-info-container, .header-menu-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-menu-container {
+    justify-content: end;
+    flex: 1;
+}
+
+.badge {
+    display: flex;
+    justify-content: ceter;
+    align-items: center;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.badge-on_hold {
+    background-color: yellow;
+}
+
+.further-detail-container {
+    display: flex;
+}
+
+.further-detail-item-container {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 3px;
+    flex: 1;
+}
